@@ -11,9 +11,9 @@ public class Main {
 //		MegaBytesConverter.printMegaBytesAndKiloBytes(-120);
 		
 		
-	 boolean year = LeapYear.isLeapYear(1800);
+	 boolean decimal = EqualSumChecker.hasEqualSum(-1, -1, 0);
 	 
-	 System.out.println(year);
+	 System.out.println(decimal);
 		
 
 	}
