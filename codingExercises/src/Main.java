@@ -7,11 +7,13 @@ public class Main {
 //		FeetAndInches.calcFeetAndInchesToCentimeters(6, 0);
 //		FeetAndInches.calcFeetAndInchesToCentimeters(40);
 		
-		double areaCal = AreaCalculator.area(5.0);
-		System.out.println(areaCal);
+//		double areaCal = AreaCalculator.area(5.0);
+//		System.out.println(areaCal);
+//		
+//		double areacala = AreaCalculator.area(5, 4);
+//		System.out.println(areacala);
 		
-		double areacala = AreaCalculator.area(5, 4);
-		System.out.println(areacala);
+		MinutesToYearsDaysCalculator.printYearsAndDays(-525600);
 	
 	}
 	
