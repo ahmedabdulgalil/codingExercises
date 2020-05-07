@@ -1,4 +1,5 @@
 import codingExercises.AreaCalculator;
+import codingExercises.IntEqualityPrinter;
 
 public class Main {
 	
@@ -12,8 +13,10 @@ public class Main {
 //		
 //		double areacala = AreaCalculator.area(5, 4);
 //		System.out.println(areacala);
+//		
+//		MinutesToYearsDaysCalculator.printYearsAndDays(-525600);
 		
-		MinutesToYearsDaysCalculator.printYearsAndDays(-525600);
+		IntEqualityPrinter.printEqual(1, 2, 3);
 	
 	}
 	
