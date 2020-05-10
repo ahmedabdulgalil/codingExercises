@@ -1,5 +1,6 @@
 import codingExercises.AreaCalculator;
 import codingExercises.IntEqualityPrinter;
+import codingExercises.PlayingCat;
 
 public class Main {
 	
@@ -16,7 +17,9 @@ public class Main {
 //		
 //		MinutesToYearsDaysCalculator.printYearsAndDays(-525600);
 		
-		IntEqualityPrinter.printEqual(1, 2, 3);
+//		IntEqualityPrinter.printEqual(1, 2, 3);
+		Boolean cat = PlayingCat.isCatPlaying(true, 46);
+		System.out.println(cat);
 	
 	}
 	
